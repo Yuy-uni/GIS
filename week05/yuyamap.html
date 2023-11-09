@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_944465f9f103b1db1bc00fffad99fc8c {
+                #map_adb41eeeae9d53005202dbce21654f97 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_944465f9f103b1db1bc00fffad99fc8c" ></div>
+            <div class="folium-map" id="map_adb41eeeae9d53005202dbce21654f97" ></div>
         
 </body>
 <script>
     
     
-            var map_944465f9f103b1db1bc00fffad99fc8c = L.map(
-                "map_944465f9f103b1db1bc00fffad99fc8c",
+            var map_adb41eeeae9d53005202dbce21654f97 = L.map(
+                "map_adb41eeeae9d53005202dbce21654f97",
                 {
                     center: [35.833, 139.955],
                     crs: L.CRS.EPSG3857,
@@ -60,36 +60,182 @@
 
         
     
-            var tile_layer_88745904f78bcc0e9d233fd040bb67a1 = L.tileLayer(
+            var tile_layer_2d3605e6ab983bfa9f3a74cddcb7703c = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_944465f9f103b1db1bc00fffad99fc8c);
+            ).addTo(map_adb41eeeae9d53005202dbce21654f97);
         
     
-            var marker_f23bef658e1b547a965bbd5b208ca03a = L.marker(
+            var marker_e5defc4448977385ce08737b56d7f777 = L.marker(
                 [35.833, 139.955],
                 {}
-            ).addTo(map_944465f9f103b1db1bc00fffad99fc8c);
+            ).addTo(map_adb41eeeae9d53005202dbce21654f97);
         
     
-        var popup_3b02524d3cb98810ca76ba1b5cddb8ec = L.popup({"maxWidth": "100%"});
+            var icon_bd579dccc6aee569970b3b9f604ca510 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e5defc4448977385ce08737b56d7f777.setIcon(icon_bd579dccc6aee569970b3b9f604ca510);
+        
+    
+        var popup_530004d0f8a410b463a679c8bba99b70 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_f613ee83fdc6594aacd110b56cbf37a8 = $(`<div id="html_f613ee83fdc6594aacd110b56cbf37a8" style="width: 100.0%; height: 100.0%;">Reitaku University, the best place on earth!</div>`)[0];
-                popup_3b02524d3cb98810ca76ba1b5cddb8ec.setContent(html_f613ee83fdc6594aacd110b56cbf37a8);
+                var html_2848d112d4351862eb38b8f6ead58e10 = $(`<div id="html_2848d112d4351862eb38b8f6ead58e10" style="width: 100.0%; height: 100.0%;">Reitaku University, the best place on earth!</div>`)[0];
+                popup_530004d0f8a410b463a679c8bba99b70.setContent(html_2848d112d4351862eb38b8f6ead58e10);
             
         
 
-        marker_f23bef658e1b547a965bbd5b208ca03a.bindPopup(popup_3b02524d3cb98810ca76ba1b5cddb8ec)
+        marker_e5defc4448977385ce08737b56d7f777.bindPopup(popup_530004d0f8a410b463a679c8bba99b70)
         ;
 
         
     
     
-            marker_f23bef658e1b547a965bbd5b208ca03a.bindTooltip(
+            marker_e5defc4448977385ce08737b56d7f777.bindTooltip(
                 `<div>
                      Reitaku University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fc43ba1b501ec38de61fea5ec34ecf3 = L.marker(
+                [35.8543189, 139.9877267],
+                {}
+            ).addTo(map_adb41eeeae9d53005202dbce21654f97);
+        
+    
+            var icon_f9f8a852e670add476617f1e10197049 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8fc43ba1b501ec38de61fea5ec34ecf3.setIcon(icon_f9f8a852e670add476617f1e10197049);
+        
+    
+        var popup_df6f3a436224fea992fce1cdad50e387 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ceaaffd929c9aad715b74fe975c73c = $(`<div id="html_b3ceaaffd929c9aad715b74fe975c73c" style="width: 100.0%; height: 100.0%;">My home is here, surrouding beautiful nature</div>`)[0];
+                popup_df6f3a436224fea992fce1cdad50e387.setContent(html_b3ceaaffd929c9aad715b74fe975c73c);
+            
+        
+
+        marker_8fc43ba1b501ec38de61fea5ec34ecf3.bindPopup(popup_df6f3a436224fea992fce1cdad50e387)
+        ;
+
+        
+    
+    
+            marker_8fc43ba1b501ec38de61fea5ec34ecf3.bindTooltip(
+                `<div>
+                     My home
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b96aacf9855e162788a5d0dd167b509 = L.marker(
+                [35.83346048858035, 140.01288688115926],
+                {}
+            ).addTo(map_adb41eeeae9d53005202dbce21654f97);
+        
+    
+            var icon_763d27d6bb9c32c21011e27753fae9d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b96aacf9855e162788a5d0dd167b509.setIcon(icon_763d27d6bb9c32c21011e27753fae9d6);
+        
+    
+        var popup_2ddaf55d35335ac02e189e4545382ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_690d720053ff1bad721caeb6005befc4 = $(`<div id="html_690d720053ff1bad721caeb6005befc4" style="width: 100.0%; height: 100.0%;">The largest mall nearby my home is here, several useful goods are included.</div>`)[0];
+                popup_2ddaf55d35335ac02e189e4545382ee4.setContent(html_690d720053ff1bad721caeb6005befc4);
+            
+        
+
+        marker_8b96aacf9855e162788a5d0dd167b509.bindPopup(popup_2ddaf55d35335ac02e189e4545382ee4)
+        ;
+
+        
+    
+    
+            marker_8b96aacf9855e162788a5d0dd167b509.bindTooltip(
+                `<div>
+                     ArioKashiwa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57d22cb6dc18ec79c515bcb681f85a12 = L.marker(
+                [35.85214336769844, 139.98194702063142],
+                {}
+            ).addTo(map_adb41eeeae9d53005202dbce21654f97);
+        
+    
+            var icon_5c8151a43ea606b0cb472a3fb4add64a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_57d22cb6dc18ec79c515bcb681f85a12.setIcon(icon_5c8151a43ea606b0cb472a3fb4add64a);
+        
+    
+        var popup_8f9fcd9c1c37b02c944541df7575a7b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97d9e1ac7bd1ebe122b05453743ed15a = $(`<div id="html_97d9e1ac7bd1ebe122b05453743ed15a" style="width: 100.0%; height: 100.0%;">The closest convenience store is here, almost daily tools are sold there.</div>`)[0];
+                popup_8f9fcd9c1c37b02c944541df7575a7b7.setContent(html_97d9e1ac7bd1ebe122b05453743ed15a);
+            
+        
+
+        marker_57d22cb6dc18ec79c515bcb681f85a12.bindPopup(popup_8f9fcd9c1c37b02c944541df7575a7b7)
+        ;
+
+        
+    
+    
+            marker_57d22cb6dc18ec79c515bcb681f85a12.bindTooltip(
+                `<div>
+                     SevenEleven
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1016249f303682093a6c1fb49169d5d = L.marker(
+                [35.85989290600351, 139.9737825719323],
+                {}
+            ).addTo(map_adb41eeeae9d53005202dbce21654f97);
+        
+    
+            var icon_ead33929e5b3fe14c438bdebf9c9e24b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f1016249f303682093a6c1fb49169d5d.setIcon(icon_ead33929e5b3fe14c438bdebf9c9e24b);
+        
+    
+        var popup_0b919ceb76cf81776c0ff12c915b0e8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bddaf953853883e89d1567ee1f6f4e7a = $(`<div id="html_bddaf953853883e89d1567ee1f6f4e7a" style="width: 100.0%; height: 100.0%;">Many festival is held here, they enjoy it as the annual traditional event.</div>`)[0];
+                popup_0b919ceb76cf81776c0ff12c915b0e8c.setContent(html_bddaf953853883e89d1567ee1f6f4e7a);
+            
+        
+
+        marker_f1016249f303682093a6c1fb49169d5d.bindPopup(popup_0b919ceb76cf81776c0ff12c915b0e8c)
+        ;
+
+        
+    
+    
+            marker_f1016249f303682093a6c1fb49169d5d.bindTooltip(
+                `<div>
+                     Kashiwashrine
                  </div>`,
                 {"sticky": true}
             );
